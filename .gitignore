@@ -1,4 +1,28 @@
-/.DS_Store
-/.venv
-/.vscode
-/__pycache__
+# ... existing code ...
+# 忽略 MacOS 系統檔案
+.DS_Store
+
+# 忽略 Python 虛擬環境
+.venv/
+env/
+venv/
+
+# 忽略 VSCode 設定檔
+.vscode/
+
+# 忽略 Python 編譯後的檔案
+__pycache__/
+*.py[cod]
+
+# 忽略日誌檔案
+*.log
+
+# 忽略臨時檔案
+*.tmp
+*.swp
+*.swo
+
+# 忽略特定 IDE 的設定檔
+.idea/
+*.iml
+# ... existing code ...
