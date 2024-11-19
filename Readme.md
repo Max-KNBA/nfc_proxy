@@ -24,11 +24,29 @@ This application supports the [ACR122U USB NFC Reader](https://www.acs.com.hk/en
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Max-KNBA/nfc_proxy.git
+   cd nfc_proxy
    ```
 
-2. Install the required Python packages:
+2. Create a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+3. Activate the virtual environment:
+
+   On Windows:
+   ```bash
+   .venv\Scripts\activate
+   ```
+
+   On macOS and Linux:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+4. Install the required Python packages:
 
    ```bash
    pip install websockets pyscard py122u
